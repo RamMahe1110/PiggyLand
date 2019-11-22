@@ -171,7 +171,7 @@ li {
 
 .development-view .development-indication {
   flex: 1;
-  padding: 150px 50px 0 200px;
+  padding: 150px 0px 0 200px;
 }
 
 .development-indication h3 {
@@ -183,6 +183,8 @@ li {
   display: flex;
   font-weight: bold;
   align-items: center;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .developmentview-see-more img {
