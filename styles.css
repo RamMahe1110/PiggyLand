@@ -180,7 +180,15 @@ li {
 
 .development-indication .developmentview-see-more {
   color: #3454d1;
+  display: flex;
   font-weight: bold;
+  align-items: center;
+}
+
+.developmentview-see-more img {
+  width: 25px;
+  height: auto;
+  margin: 0 0 0 10px;
 }
 
 .development-view .development-images {
