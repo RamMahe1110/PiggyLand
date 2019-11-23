@@ -286,7 +286,8 @@ li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
-  margin: 30px auto 100px auto;
+  margin: 30px auto 0px auto;
+  padding: 0 0 100px 0;
 }
 
 .recent-appraisals-box-info {
@@ -311,4 +312,40 @@ li {
 
 .recent-appraisals-box-info .room {
   padding: 10px 20px;
+}
+
+.footer-main-content {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  padding: 60px 0 100px 0;
+}
+
+.footer-brand,
+.services,
+.enterprise,
+.about,
+.contact {
+  width: 20%;
+}
+
+.footer-brand .footer-brand-name,
+.services h3,
+.enterprise h3,
+.about h3,
+.contact h3 {
+  padding: 20px 0;
+  font-size: 15px;
+}
+
+.footer-brand p,
+.services p,
+.enterprise p,
+.about p,
+.contact p {
+  padding: 10px 0;
+}
+
+.footer-brand .footer-brand-name {
+  font-family: "Righteous", cursive;
 }
