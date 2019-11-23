@@ -225,3 +225,48 @@ li {
   height: 100px;
   margin: 0 10px;
 }
+
+.price-preview {
+  margin: 150px auto 150px auto;
+  display: flex;
+  max-width: 80%;
+}
+
+.price-preview .img {
+  width: 40%;
+  padding: 0px 0px 0px 200px;
+
+  display: flex;
+  justify-content: left;
+}
+
+.price-preview .img img {
+  width: 300px;
+  height: auto;
+}
+
+.price-preview .price-prvw-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.price-prvw-content h3 {
+  margin: 0 0 20px 0;
+}
+
+.price-prvw-content .price-prvw-see-more {
+  color: #3454d1;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.price-prvw-see-more img {
+  width: 25px;
+  height: auto;
+  margin: 0 0 0 10px;
+}
