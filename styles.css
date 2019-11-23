@@ -275,20 +275,40 @@ li {
   background: #f5f9ff;
 }
 
+.recent-appraisals-section h1 {
+  width: 80%;
+  margin: 100px auto 0 auto;
+  padding-top: 100px;
+}
+
 .recent-appraisals-content {
-  background: orange;
   width: 80%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
-  margin: auto;
+  margin: 30px auto 100px auto;
 }
 
 .recent-appraisals-box-info {
-  width: 20%;
+  box-shadow: rgba(19, 15, 235, 0.1) 2px 4px 40px;
+  background: #fff;
+  border-radius: 4px;
 }
 
 .recent-appraisals-box-info img {
   width: 100%;
   height: auto;
+}
+
+.recent-appraisals-box-info .address {
+  padding: 10px 20px;
+}
+
+.recent-appraisals-box-info .chf {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.recent-appraisals-box-info .room {
+  padding: 10px 20px;
 }
