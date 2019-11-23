@@ -270,3 +270,25 @@ li {
   height: auto;
   margin: 0 0 0 10px;
 }
+
+.recent-appraisals-section {
+  background: #f5f9ff;
+}
+
+.recent-appraisals-content {
+  background: orange;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  margin: auto;
+}
+
+.recent-appraisals-box-info {
+  width: 20%;
+}
+
+.recent-appraisals-box-info img {
+  width: 100%;
+  height: auto;
+}
