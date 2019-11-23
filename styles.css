@@ -344,8 +344,35 @@ li {
 .about p,
 .contact p {
   padding: 10px 0;
+  cursor: pointer;
 }
 
 .footer-brand .footer-brand-name {
   font-family: "Righteous", cursive;
+}
+
+.final-and-links {
+  display: flex;
+  width: 60%;
+  padding: 20px 0px;
+  margin: auto;
+}
+
+.footer-content .final-and-links .final-text {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+  flex: 80%;
+}
+
+.social-links {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.social-links img {
+  width: 20px;
+  height: auto;
+  margin: 0 5px;
+  cursor: pointer;
 }
