@@ -299,6 +299,8 @@ li {
 .recent-appraisals-box-info img {
   width: 100%;
   height: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .recent-appraisals-box-info .address {
@@ -347,6 +349,8 @@ li {
 .sold-house-indi img {
   width: 100%;
   height: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .sold-house-indi h4 {
