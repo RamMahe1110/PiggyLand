@@ -314,6 +314,55 @@ li {
   padding: 10px 20px;
 }
 
+.recent-sales-section {
+  background: #f5f9ff;
+}
+
+.recent-sales-section h1 {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0 0 0;
+}
+
+.sold-houses-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  margin: 30px auto 0px auto;
+  padding: 0 0 100px 0;
+}
+
+.sold-house-indi {
+  box-shadow: rgba(19, 15, 235, 0.1) 2px 4px 40px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.sold-house-indi img {
+  width: 100%;
+  height: auto;
+}
+
+.sold-house-indi h4 {
+  width: 30%;
+  padding: 10px 15px;
+  margin: 20px 0 0 20px;
+  background: #4caf50;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.sold-house-indi h3 {
+  font-weight: bold;
+  margin: 20px 0 0 20px;
+}
+
+.sold-house-indi p {
+  margin: 20px 0 20px 20px;
+}
+
 .footer-main-content {
   width: 60%;
   margin: auto;
