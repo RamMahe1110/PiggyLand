@@ -325,18 +325,23 @@ li {
 }
 
 .sold-houses-container {
-  width: 80%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px;
+  max-width: 80%;
+  display: flex;
   margin: 30px auto 0px auto;
   padding: 0 0 100px 0;
+  overflow: auto;
+}
+
+.sold-houses-container::-webkit-scrollbar {
+  display: none;
 }
 
 .sold-house-indi {
   box-shadow: rgba(19, 15, 235, 0.1) 2px 4px 40px;
   background: #fff;
   border-radius: 4px;
+  margin: 0 20px 0 0;
+  min-width: 270px;
 }
 
 .sold-house-indi img {
