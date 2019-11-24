@@ -89,6 +89,7 @@ li {
   flex-direction: column;
   margin: 250px 0 0 400px;
   color: rgba(255, 255, 255);
+  padding: 0 10px;
 }
 
 .homepage-top-part-content h1 {
@@ -126,17 +127,36 @@ li {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 1600px) {
   .logo-and-routes {
     width: 90%;
   }
+
+  .homepage-top-part-content {
+    margin: 250px 0 0 300px;
+  }
+
+  .homepage-top-part-content h1 {
+    font-size: 3.5vw;
+  }
+
+  .homepage-top-part-content h3 {
+    font-size: 2vw;
+  }
 }
 
 @media (max-width: 1450px) {
   .logo-and-routes {
     width: 100%;
+  }
+
+  .homepage-top-part-content {
+    margin: 250px 0 0 200px;
   }
 }
 
@@ -183,6 +203,56 @@ li {
     height: auto;
     width: 15%;
   }
+
+  .homepage-top-part {
+    height: 100vh;
+  }
+
+  .homepage-top-part-content h1 {
+    font-size: 4vw;
+  }
+
+  .homepage-top-part-content h3 {
+    font-size: 2.5vw;
+  }
+
+  .homepage-top-part-content .homepage-top-input {
+    width: 80%;
+  }
+
+  .homepage-top-part-content .homepage-top-input input {
+    width: 80%;
+    font-size: 1.5vw;
+  }
+  .homepage-top-part-content .homepage-top-input p {
+    width: 20%;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 1050px) {
+  .homepage-top-part-content {
+    margin: 250px 0 0 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .homepage-top-part-content h1 {
+    font-size: 5vw;
+  }
+
+  .homepage-top-part-content h3 {
+    font-size: 3vw;
+  }
+
+  .homepage-top-part-content .homepage-top-input {
+    width: 90%;
+  }
+
+  .homepage-top-part-content .homepage-top-input input {
+    padding: 20px 20px;
+    font-size: 2vw;
+  }
 }
 
 @media (max-width: 900px) {
@@ -194,6 +264,16 @@ li {
 @media (max-width: 700px) {
   .logo-and-routes .minidisplay-menu {
     width: 40%;
+  }
+}
+
+@media (max-width: 650px) {
+  .homepage-top-part-content {
+    margin: 250px 0 0 30px;
+  }
+
+  .homepage-top-part-content h3 {
+    padding-top: 10px;
   }
 }
 
@@ -211,6 +291,12 @@ li {
   .logo-and-routes .minidisplay-menu {
     width: 65%;
   }
+  .homepage-top-part-content .homepage-top-input input {
+    font-size: 2.5vw;
+  }
+  .homepage-top-input p {
+    font-size: 2.5vw;
+  }
 }
 
 @media (max-width: 450px) {
@@ -226,6 +312,23 @@ li {
   .logo img {
     width: 25px;
     height: auto;
+  }
+
+  .homepage-top-part-content h1 {
+    font-size: 6vw;
+  }
+
+  .homepage-top-part-content h3 {
+    font-size: 4vw;
+  }
+
+  .homepage-top-part-content .homepage-top-input input {
+    font-size: 3.5vw;
+  }
+
+  .homepage-top-part-content .homepage-top-input p {
+    font-size: 3.5vw;
+    padding: 0 35px;
   }
 }
 
