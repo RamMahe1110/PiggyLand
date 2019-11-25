@@ -321,7 +321,7 @@ li {
     left: 55%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    width: 100%;
+    width: 90%;
   }
 
   .homepage-top-part-content h1 {
@@ -489,6 +489,14 @@ li {
   .development-images .second-img-container {
     margin: 0;
   }
+
+  .second-img-container .img-2 {
+    width: 40%;
+  }
+
+  .second-img-container .img-3 {
+    width: 60%;
+  }
 }
 
 /*--------------*/
@@ -550,6 +558,10 @@ li {
     margin: 0px 0 50px 0;
   }
 
+  .price-preview .img img {
+    margin: auto;
+  }
+
   .price-preview .price-prvw-content {
     width: 100%;
   }
@@ -576,6 +588,7 @@ li {
   grid-gap: 30px;
   margin: 30px auto 0px auto;
   padding: 0 0 100px 0;
+  overflow: auto;
 }
 
 .recent-appraisals-box-info {
@@ -614,6 +627,15 @@ li {
   padding: 80px 0 0 0;
 }
 
+@media (max-width: 600px) {
+  .recent-appraisals-content {
+    width: 100%;
+    grid-template-columns: repeat(1, 100%);
+    padding: 0 20px;
+  }
+}
+
+/*----------------*/
 .sold-houses-container {
   max-width: 80%;
   display: flex;
@@ -660,6 +682,31 @@ li {
   margin: 20px 0 20px 20px;
 }
 
+@media (max-width: 600px) {
+  .recent-appraisals-section {
+    padding: 20px;
+  }
+
+  .sold-houses-container .sold-house-indi {
+    min-width: 80%;
+  }
+
+  .sold-house-indi h4 {
+    width: 50%;
+    padding: 5px 10px;
+    margin: 10px 0 0 20px;
+  }
+
+  .sold-house-indi h3 {
+    margin: 10px 0 0 20px;
+  }
+
+  .sold-house-indi p {
+    margin: 10px 0 20px 20px;
+  }
+}
+
+/*----------------*/
 .footer-main-content {
   width: 60%;
   margin: auto;
