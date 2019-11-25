@@ -318,14 +318,14 @@ li {
     margin: 0;
     position: absolute;
     top: 50%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     width: 90%;
   }
 
   .homepage-top-part-content h1 {
-    font-size: 6vw;
+    font-size: 6.5vw;
   }
 
   .homepage-top-part-content h3 {
@@ -784,7 +784,7 @@ li {
   .contact {
     width: 100%;
     margin: 30px 0;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #e0e4eb;
   }
   .footer-brand .footer-brand-name,
   .services h3,
