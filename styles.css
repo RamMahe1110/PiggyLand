@@ -768,3 +768,57 @@ li {
   margin: 0 5px;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .footer-main-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    padding: 20px;
+  }
+
+  .footer-brand,
+  .services,
+  .enterprise,
+  .about,
+  .contact {
+    width: 100%;
+    margin: 30px 0;
+    border-bottom: 2px solid #ccc;
+  }
+  .footer-brand .footer-brand-name,
+  .services h3,
+  .enterprise h3,
+  .about h3,
+  .contact h3 {
+    padding: 20px 0px;
+  }
+
+  .footer-brand p,
+  .services p,
+  .enterprise p,
+  .about p,
+  .contact p {
+    padding: 10px 0px;
+  }
+
+  .footer-brand-name {
+    justify-content: center;
+  }
+
+  .footer-brand p {
+    display: none;
+  }
+
+  .final-and-links {
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .final-and-links .final-text {
+    flex: none;
+    width: 100%;
+    padding: 20px 0;
+  }
+}
