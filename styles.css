@@ -391,6 +391,20 @@ li {
   cursor: pointer;
 }
 
+@media (max-width: 600px) {
+  .guide-container {
+    max-width: 100%;
+  }
+  .guide-container .guides {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+  .guide-container .guides .guide-btn {
+    width: 100%;
+  }
+}
+
+/*----------------*/
 .development-view {
   margin: 0 auto 150px auto;
   display: flex;
