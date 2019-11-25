@@ -402,6 +402,10 @@ li {
   .guide-container .guides .guide-btn {
     width: 100%;
   }
+
+  .guides .guide h4 {
+    font-size: 5vw;
+  }
 }
 
 /*----------------*/
