@@ -628,6 +628,10 @@ li {
 }
 
 @media (max-width: 600px) {
+  .recent-appraisals-section h1 {
+    padding-top: 0px;
+  }
+
   .recent-appraisals-content {
     width: 100%;
     grid-template-columns: repeat(1, 100%);
