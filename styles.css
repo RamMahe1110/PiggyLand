@@ -467,6 +467,31 @@ li {
   margin: 0 10px;
 }
 
+@media (max-width: 600px) {
+  .development-view {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .development-view .development-indication {
+    flex: none;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .development-view .development-images {
+    padding: 30px;
+  }
+  .development-images .img-1 {
+    margin: 0 0 10px 60px;
+  }
+
+  .development-images .second-img-container {
+    margin: 0;
+  }
+}
+
+/*--------------*/
 .price-preview {
   margin: 150px auto 150px auto;
   display: flex;
